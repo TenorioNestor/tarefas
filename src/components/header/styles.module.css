@@ -55,3 +55,21 @@
     border-radius: 24px;
     margin: 0 14px;
 }
+
+@media screen and (max-width:580px) {
+    .link{
+        font-size: 16px;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 16px;
+    }
+    .logo span{
+        font-size: 20px;
+        margin-left: 5px;
+    }
+
+
+}
